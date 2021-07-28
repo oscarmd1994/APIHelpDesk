@@ -1,0 +1,5 @@
+C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp3.1\API_RESTFULL_HELPDESK_APP.csprojAssemblyReference.cache
+C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp3.1\API_RESTFULL_HELPDESK_APP.AssemblyInfoInputs.cache
+C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp3.1\API_RESTFULL_HELPDESK_APP.AssemblyInfo.cs
+C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp3.1\API_RESTFULL_HELPDESK_APP.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp3.1\API_RESTFULL_HELPDESK_APP.MvcApplicationPartsAssemblyInfo.cache
