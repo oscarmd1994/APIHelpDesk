@@ -16,3 +16,21 @@ C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_R
 C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.pdb
 C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.genruntimeconfig.cache
 C:\Users\Oscar Mejía Doroteo\Desktop\Server App\API_RESTFULL_HELPDESK_APP\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.csproj.AssemblyReference.cache
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\appsettings.json
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.deps.json
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.runtimeconfig.json
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.runtimeconfig.dev.json
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.dll
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\bin\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.pdb
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.csprojAssemblyReference.cache
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.AssemblyInfoInputs.cache
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.AssemblyInfo.cs
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.RazorAssemblyInfo.cache
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.RazorAssemblyInfo.cs
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.RazorTargetAssemblyInfo.cache
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.dll
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.pdb
+C:\Users\Oscar Mejia\Desktop\ApiHelpDesk\API_RESTFULL_HELPDESK_APP\obj\Release\netcoreapp2.1\API_RESTFULL_HELPDESK_APP.genruntimeconfig.cache

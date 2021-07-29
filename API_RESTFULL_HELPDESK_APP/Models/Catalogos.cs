@@ -95,7 +95,6 @@ namespace API_RESTFULL_HELPDESK_APP.Controllers.Models
         public string User { get; set; }
         public string token { get; set; }
     }
-
     public class DetalleTickets {
         public string idTicket { get; set; }
         public string empresaId { get; set; }
@@ -115,5 +114,27 @@ namespace API_RESTFULL_HELPDESK_APP.Controllers.Models
         public string fechaAsignacion { get; set; }
         public string fechaProcesamiento { get; set; }
         public string fechaTermino { get; set; }
+    }
+    public class UserData
+    {
+        public string IdUsuario { get; set; }
+        public string Nombre { get; set; }
+        public string Paterno { get; set; }
+        public string Materno { get; set; }
+        public string Email { get; set; }
+        public string TipoUser { get; set; }
+        public string TipoUser_id { get; set; }
+    }
+    public class VUser
+    {
+        public string user { get; set; }
+        public string pass { get; set; }
+    }
+    public class TicketData
+    {
+        public string User_solicitante_id { get; set; }
+        public string Empresa_id { get; set; }
+        public string Modalidad_id { get; set; }
+        public string Descripcion_problema { get; set; }
     }
 }

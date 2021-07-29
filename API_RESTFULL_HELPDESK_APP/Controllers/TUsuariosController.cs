@@ -48,6 +48,7 @@ namespace API_RESTFULL_HELPDESK_APP.Controllers
 
             return Ok(tUsuarios);
         }
+
         // GET: api/TUsuarios valida usuario existe en login
         [HttpGet("{user}/{pass}")]
         public ActionResult GetValidaUserPassword( string user, string pass)
@@ -112,6 +113,21 @@ namespace API_RESTFULL_HELPDESK_APP.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetTUsuarios", new { id = tUsuarios.IdUsuario }, tUsuarios);
+        }
+
+        [HttpPost("userdata")]
+        public ActionResult PostUserData( VUser user)
+        {
+            UsuariosDao Dao = new UsuariosDao();
+            try
+            {
+                UserData respuestas = Dao.sp_TUsuarios_getUserData(user);
+                return Ok(respuestas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.InnerException);
+            }
         }
 
         // DELETE: api/TUsuarios/5

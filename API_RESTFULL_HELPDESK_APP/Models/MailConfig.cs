@@ -25,13 +25,20 @@ namespace API_RESTFULL_HELPDESK_APP.Models
             Console.WriteLine(path);
             Console.WriteLine("//////////////////////////////////////////////////////////////////////////////////////////");
 
+            // ORIGINAL
+            //LinkedResource addfile = new LinkedResource(aa + @"..\..\..\Assets\Images\addfile.png");
+            //LinkedResource bell = new LinkedResource(aa + @"..\..\..\Assets\images\bell.png");
+            //LinkedResource bubble = new LinkedResource(aa + @"..\..\..\Assets\images\bubble.png");
+            //LinkedResource category = new LinkedResource(aa + @"..\..\..\Assets\images\category.png");
+            //LinkedResource user = new LinkedResource(aa + @"..\..\..\Assets\images\user.png");
+            //LinkedResource logo_app = new LinkedResource(aa + @"..\..\..\Assets\images\logo_app.png");
 
-            LinkedResource addfile = new LinkedResource(aa + @"..\..\..\Assets\Images\addfile.png");
-            LinkedResource bell = new LinkedResource(aa + @"..\..\..\Assets\images\bell.png");
-            LinkedResource bubble = new LinkedResource(aa + @"..\..\..\Assets\images\bubble.png");
-            LinkedResource category = new LinkedResource(aa + @"..\..\..\Assets\images\category.png");
-            LinkedResource user = new LinkedResource(aa + @"..\..\..\Assets\images\user.png");
-            LinkedResource logo_app = new LinkedResource(aa + @"..\..\..\Assets\images\logo_app.png");
+            LinkedResource addfile = new LinkedResource(aa + @"..\..\Assets\Images\addfile.png");
+            LinkedResource bell = new LinkedResource(aa + @"..\..\Assets\images\bell.png");
+            LinkedResource bubble = new LinkedResource(aa + @"..\..\Assets\images\bubble.png");
+            LinkedResource category = new LinkedResource(aa + @"..\..\Assets\images\category.png");
+            LinkedResource user = new LinkedResource(aa + @"..\..\Assets\images\user.png");
+            LinkedResource logo_app = new LinkedResource(aa + @"..\..\Assets\images\logo_app.png");
 
             addfile.ContentId = "addfile";
             bell.ContentId = "bell";

@@ -129,6 +129,7 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return tickets;
         }
+
         public List<DetalleTickets> sp_Tickets_getTicketsByStatus(string Status_id)
         {
             List<DetalleTickets> tickets = new List<DetalleTickets>();
@@ -177,6 +178,35 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return tickets;
         }
+        public Respuestas sp_TTickets_insertTickets(TicketData ticket)
+        {
+            Respuestas respuestas = new Respuestas();
+            this.Conectar();
+            SqlCommand cmd = new SqlCommand("sp_TTickets_insertTickets", this.conexion)
+            {
+                CommandType = CommandType.StoredProcedure
+            };
+            cmd.Parameters.Add(new SqlParameter("@ctrlUser_id", ticket.User_solicitante_id));
+            cmd.Parameters.Add(new SqlParameter("@ctrlEmpresa_id", ticket.Empresa_id));
+            cmd.Parameters.Add(new SqlParameter("@ctrlModalidad_id", ticket.Modalidad_id));
+            cmd.Parameters.Add(new SqlParameter("@ctrlDescripcion_problema", ticket.Descripcion_problema));
+            SqlDataReader data = cmd.ExecuteReader();
+            cmd.Dispose();
+
+            if (data.HasRows)
+            {
+                while (data.Read())
+                {
+                    respuestas.iFlag = data["iFlag"].ToString();
+                    respuestas.sMessage = data["sMessage"].ToString();
+                }
+            }
+
+            data.Close();
+            this.conexion.Close(); this.Conectar().Close();
+
+            return respuestas;
+        }
 
 
     }
@@ -219,6 +249,7 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return modalidades;
         }
+
         public Respuestas sp_CModalidades_insertModalidades(CModalidades modalidades)
         {
             Respuestas respuesta = new Respuestas();
@@ -250,6 +281,7 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return respuesta;
         }
+
     }
     public class UsuariosDao : Conexion
     {
@@ -291,6 +323,7 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return usuarios;
         }
+
         public Respuestas sp_TUsuarios_getValidaUser(string user, string pass)
         {
             Respuestas respuesta = new Respuestas();
@@ -316,6 +349,38 @@ namespace API_RESTFULL_HELPDESK_APP.Models
             this.conexion.Close(); this.Conectar().Close();
             return respuesta;
         }
+
+        public UserData sp_TUsuarios_getUserData(VUser user)
+        {
+            UserData userData = new UserData();
+            this.Conectar();
+            SqlCommand cmd = new SqlCommand("sp_TUsuarios_getUserData", this.conexion)
+            {
+                CommandType = CommandType.StoredProcedure
+            };
+            cmd.Parameters.Add(new SqlParameter("@ctrlUsuario", user.user));
+            cmd.Parameters.Add(new SqlParameter("@ctrlPassword", user.pass));
+            SqlDataReader data = cmd.ExecuteReader();
+            cmd.Dispose();
+            if (data.HasRows)
+            {
+                while (data.Read())
+                {
+                    userData.IdUsuario = data["IdUsuario"].ToString();
+                    userData.Nombre = data["Nombre"].ToString();
+                    userData.Paterno = data["Paterno"].ToString();
+                    userData.Materno = data["Materno"].ToString();
+                    userData.Email = data["Email"].ToString();
+                    userData.TipoUser = data["TipoUser"].ToString();
+                    userData.TipoUser_id = data["TipoUser_id"].ToString();
+                }
+            }
+
+            data.Close();
+            this.conexion.Close(); this.Conectar().Close();
+            return userData;
+        }
+
         public Respuestas sp_TUsuarios_insertUsuarios(CModalidades modalidades)
         {
             Respuestas respuesta = new Respuestas();
@@ -347,6 +412,7 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return respuesta;
         }
+
         public Respuestas sp_TUsuarios_SaveToken(NewToken token)
         {
             Respuestas respuesta = new Respuestas();
@@ -373,5 +439,6 @@ namespace API_RESTFULL_HELPDESK_APP.Models
 
             return respuesta;
         }
+
     }
 }
